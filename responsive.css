@@ -1,0 +1,19 @@
+@media(max-width:800px){
+  .lista{
+    width: 100%;
+  }
+  .lista img{
+    min-width: 15%;
+  }
+}
+
+@media(max-width:570px)
+{
+  .lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width:400px ;
+  }
+}
