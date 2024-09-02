@@ -1,9 +1,12 @@
-@media(max-width:800px){
+@media(min-width:571px){
   .lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
   }
   .lista img{
-    min-width: 15%;
+    width: 100%;
   }
 }
 
